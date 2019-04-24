@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="main_content">Main Content Here</string>
+    <string name="action_import">Import</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="action_slideshow">Slideshow</string>
+    <string name="action_tools">Tools</string>
+    <string name="action_share">Share</string>
+    <string name="action_send">Send</string>
+    <string name="action_communication">Communication</string>
+    <string name="nav_header_desc">Navigation heading</string>
+    <string name="nav_header_title">Navigation Drawer</string>
+    <string name="nav_header_subtitle">Subtitle</string>
+    <string name="close_navigation_label">Close navigation drawer</string>
+    <string name="open_navigation_label">Open navigation drawer</string>
+</resources>
