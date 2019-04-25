@@ -11,21 +11,23 @@ public class RecipeDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe_details);
 
-        // Get intent
-        Intent intent = getIntent();
-        Recipe recipe = intent.getParcelableExtra(RecipeDetailsFragment.BUNDLE_MESSAGE);
+        if (savedInstanceState == null) {
+            // Get intent
+            Intent intent = getIntent();
+            Recipe recipe = intent.getParcelableExtra(RecipeDetailsFragment.BUNDLE_MESSAGE);
 
-        // Put recipe in bundle
-        Bundle bundle = new Bundle();
-        bundle.putParcelable(RecipeDetailsFragment.BUNDLE_MESSAGE, recipe);
+            // Put recipe in bundle
+            Bundle bundle = new Bundle();
+            bundle.putParcelable(RecipeDetailsFragment.BUNDLE_MESSAGE, recipe);
 
-        // Pass bundle over to fragment
-        RecipeDetailsFragment fragment = new RecipeDetailsFragment();
-        fragment.setArguments(bundle);
+            // Pass bundle over to fragment
+            RecipeDetailsFragment fragment = new RecipeDetailsFragment();
+            fragment.setArguments(bundle);
 
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.recipe_details_fragment, fragment)
-                .addToBackStack(null)
-                .commit();
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.recipe_details_fragment, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        }
     }
 }

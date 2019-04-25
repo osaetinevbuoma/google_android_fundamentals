@@ -56,7 +56,8 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeView
 
         @Override
         public void onClick(View v) {
-            // Do something
+            // Get the recipe and pass to the fragment listener to be implemented by hosting
+            // activity.
             int position = getAdapterPosition();
             Recipe recipe = mRecipeList.get(position);
             mListener.onRecipeClickedInteraction(recipe);
