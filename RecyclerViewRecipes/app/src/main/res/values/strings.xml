@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">RecyclerView Recipes</string>
+
+    <string-array name="recipe_names">
+        <item>Chorizo Breakfast Tacos with Potato Hash and Eggs</item>
+        <item>Baked French Toast</item>
+        <item>French Toast Casserole</item>
+        <item>Banana Bread</item>
+        <item>Quick Quiche</item>
+        <item>Truck-Stop Buttermilk Pancakes</item>
+        <item>Vegan Pancakes</item>
+        <item>Baked Ham and Cheese Party Sandwiches</item>
+        <item>Easy Sausage Gravy and Biscuits</item>
+        <item>Spinach Quiche</item>
+    </string-array>
+
+    <string-array name="recipe_descriptions">
+        <item>Chorizo breakfast tacos with potato hash and eggs are ridiculously flavorful, quick,
+            and easy. The perfect meal any time of day!</item>
+        <item>I got this recipe from my sister in law. She and my brother had it at their gift
+            opening after the wedding. I make it any time we have people staying with us, and it is
+            always a hit. You may sprinkle the top with pecans if you wish.</item>
+        <item>Tastes good for breakfast, just like French toast. It\'s easy to make too! Serve warm
+            with maple syrup on top.</item>
+        <item>This is our family favorite.</item>
+        <item>When you don\'t have the time to make a pastry crust, try this quick lunch idea. You
+            may add any other goodies you like, such as ham, chicken, crab, shrimp or broccoli.</item>
+        <item>A yummy breakfast treat, and very easy to make!! Serve with bacon or sausage, and
+            some fried eggs, wonderful!!! Batter will keep in fridge for a couple of days if you
+            can\'t make all at once, or you can freeze and make at a later date.</item>
+        <item>This batter makes light, fluffy, and delicious pancakes. I have been making them for
+            years and everyone that tries them wants the recipe.</item>
+        <item>These small, delicious sandwiches are perfect for any party. They are so good that
+            even the pickiest of eaters will eat these.</item>
+        <item>Hot jumbo buttermilk biscuits with creamy sausage gravy are ready in just 15 minutes
+            for a hearty, family-favorite breakfast.</item>
+        <item>I don\'t normally like cooked spinach but I fell in love with this at first bite.
+            Sooo good!</item>
+    </string-array>
+
+    <string-array name="recipe_details">
+        <item>
+            <b>Ingredients</b> \n 
+            2 tablespoons vegetable oil \n
+            2 baked potatoes, peeled and cubed \n
+            1/2 cup chopped onion \n
+            1/2 teaspoon garlic powder \n
+            1/2 teaspoon onion powder \n
+            salt and freshly ground black pepper \n
+            7 ounces chorizo sausage, removed from casings \n
+            5 eggs \n
+            1 tablespoon milk \n
+            3 tablespoons finely chopped fresh cilantro, divided \n
+            6 small corn tortillas, warmed \n
+            1/2 cup shredded Cheddar cheese \n
+            6 tablespoons salsa \n\n
+
+            <b>Directions</b> \n 
+            Heat oil in a nonstick skillet over medium-high heat until shimmering. Add potatoes,
+            onion, garlic powder, and onion powder to one side of the skillet and season with salt
+            and pepper. Add chorizo sausage on the other side of the skillet and saute, breaking up
+            with the back of a spoon, until browned, about 5 minutes. Turn over the potatoes after a
+            couple of minutes so they get brown on both sides. \n\n
+            Combine eggs, milk, 1 tablespoon cilantro, salt, and pepper in a bowl. Reduce heat and
+            pour egg mixture into the skillet. Stir eggs until they are very softly set, about
+            3 minutes. Remove from heat. \n\n
+            Spread out warmed tortillas and divide potato, chorizo, and egg mixture among them.
+            Sprinkle with remaining 2 tablespoons cilantro. Top with Cheddar cheese and salsa. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            1 (1 pound) loaf French bread, cut diagonally in 1 inch slices \n
+            8 eggs \n
+            2 cups milk \n
+            1 1/2 cups half-and-half cream \n
+            2 teaspoons vanilla extract \n
+            1/4 teaspoon ground cinnamon \n
+            3/4 cup butter \n
+            1 1/3 cups brown sugar \n
+            3 tablespoons light corn syrup \n\n
+
+            <b>Directions</b> \n 
+            Butter a 9x13 inch baking dish. Arrange the slices of bread in the bottom. In a large
+            bowl, beat together eggs, milk, cream, vanilla and cinnamon. Pour over bread slices,
+            cover, and refrigerate overnight. \n\n
+
+            The next morning, preheat oven to 350 degrees F (175 degrees C). In a small saucepan,
+            combine butter, brown sugar and corn syrup; heat until bubbling. Pour over bread and egg
+            mixture. \n\n
+
+            Bake in preheated oven, uncovered, for 40 minutes. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            5 cups bread cubes \n
+            4 eggs \n
+            1 1/2 cups milk \n
+            1/4 cup white sugar, divided \n
+            1/4 teaspoon salt \n
+            1 teaspoon vanilla extract \n
+            1 tablespoon margarine, softened \n
+            1 teaspoon ground cinnamon \n\n
+
+            <b>Directions</b> \n 
+            Preheat oven to 350 degrees F (175 degrees C). Lightly butter an 8x8 inch baking pan. \n\n
+
+            Line bottom of pan with bread cubes. In a large bowl, beat together eggs, milk, 2
+            tablespoons sugar, salt and vanilla. pour egg mixture over bread. Dot with margarine;
+            let stand for 10 minutes. \n\n
+
+            Combine remaining 2 tablespoons sugar with 1 teaspoon cinnamon and sprinkle over the
+            top. Bake in preheated oven about 45 to 50 minutes, until top is golden. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            1 1/2 cups all-purpose flour \n
+            1 teaspoon baking soda \n
+            1/2 teaspoon salt \n
+            1 cup white sugar \n
+            2 eggs, beaten \n
+            1/4 cup butter, melted \n
+            3 bananas, mashed \n\n
+
+            <b>Directions</b> \n 
+            Grease and flour two 7x3 inch loaf pans. Preheat oven to 350 degrees F (175 degrees C). \n\n
+
+            In one bowl, whisk together flour, soda, salt, and sugar. Mix in slightly beaten eggs,
+            melted butter, and mashed bananas. Stir in nuts if desired. Pour into prepared pans. \n\n
+
+            Bake at 350 degrees F (175 degrees C) for 1 hour, or until a wooden toothpick inserted
+            in the center comes out clean. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            8 slices bacon \n
+            4 ounces shredded Swiss cheese \n
+            2 tablespoons butter, melted \n
+            4 eggs, beaten \n
+            1/4 cup finely chopped onion \n
+            1 teaspoon salt \n
+            1/2 cup all-purpose flour \n
+            1 1/2 cups milk \n\n
+
+            <b>Directions</b> \n 
+            Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown.
+            Drain, crumble and set aside. \n\n
+
+            Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9 inch pie pan. \n\n
+
+            Line bottom of pie plate with cheese and crumbled bacon. Combine eggs, butter, onion,
+            salt, flour and milk; whisk together until smooth; pour into pie pan. \n\n
+
+            Bake in preheated oven for 35 minutes, until set. Serve hot or cold. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            5 eggs \n
+            1 1/2 cups milk \n
+            6 tablespoons butter, melted \n
+            5 cups buttermilk \n
+            5 cups all-purpose flour \n
+            5 teaspoons baking powder \n
+            5 teaspoons baking soda \n
+            1 pinch salt (optional) \n
+            5 tablespoons sugar \n\n
+
+            <b>Directions</b> \n 
+            In a large bowl, whisk together the eggs, milk, butter and buttermilk. Combine the
+            flour, baking powder, baking soda and sugar; stir into the wet ingredients just until
+            blended. Adjust the thickness of the batter to your liking by adding more flour or
+            buttermilk if necessary. \n\n
+
+            Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of
+            batter onto the skillet, and cook until bubbles appear on the surface. Flip with a
+            spatula, and cook until browned on the other side. Continue with remaining batter. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            1 1/4 cups all-purpose flour \n
+            2 tablespoons white sugar \n
+            2 teaspoons baking powder \n
+            1/2 teaspoon salt \n
+            1 1/4 cups water \n
+            1 tablespoon oil \n\n
+
+            <b>Directions</b> \n 
+            Sift the flour, sugar, baking powder, and salt into a large bowl. Whisk the water and
+            oil together in a small bowl. Make a well in the center of the dry ingredients, and pour
+            in the wet. Stir just until blended; mixture will be lumpy. \n\n
+
+            Heat a lightly oiled griddle over medium-high heat. Drop batter by large spoonfuls onto
+            the griddle, and cook until bubbles form and the edges are dry. Flip, and cook until
+            browned on the other side. Repeat with remaining batter. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            3/4 cup melted butter \n
+            1 1/2 tablespoons Dijon mustard \n
+            1 1/2 teaspoons Worcestershire sauce \n
+            1 1/2 tablespoons poppy seeds \n
+            1 tablespoon dried minced onion \n
+            24 mini sandwich rolls \n
+            1 pound thinly sliced cooked deli ham \n
+            1 pound thinly sliced Swiss cheese \n\n
+
+            <b>Directions</b> \n 
+            Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13-inch baking dish. \n\n
+
+            In a bowl, mix together butter, Dijon mustard, Worcestershire sauce, poppy seeds, and
+            dried onion. Separate the tops from bottoms of the rolls, and place the bottom pieces
+            into the prepared baking dish. Layer about half the ham onto the rolls. Arrange the
+            Swiss cheese over the ham, and top with remaining ham slices in a layer. Place the tops
+            of the rolls onto the sandwiches. Pour the mustard mixture evenly over the rolls. \n\n
+
+            Bake in the preheated oven until the rolls are lightly browned and the cheese has melted,
+            about 20 minutes. Slice into individual rolls through the ham and cheese layers to serve. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            1 (16 ounce) can refrigerated jumbo buttermilk biscuits \n
+            1 (9.6 ounce) package Jimmy Dean® Original Hearty Pork Sausage Crumbles \n
+            1/4 cup flour \n
+            2 1/2 cups milk \n
+            Salt and ground black pepper to taste \n\n
+
+            <b>Directions</b> \n 
+            Bake biscuits according to package directions. \n\n
+
+            Meanwhile, cook sausage in large skillet over medium heat 5-6 minutes or until
+            thoroughly heated, stirring frequently. Stir in flour. Gradually add milk; cook until
+            mixture comes to a boil and thickens, stirring constantly. Reduce heat to medium-low;
+            simmer 2 minutes, stirring constantly. Season to taste with salt and pepper. \n\n
+
+            Split biscuits in half. Place 2 halves on each of 8 plates; top with about 1/3 cup gravy. \n\n
+        </item>
+        <item>
+            <b>Ingredients</b> \n 
+            1 (10 ounce) package frozen chopped spinach, thawed \n
+            1 bunch green onions, finely chopped (white parts only) \n
+            4 eggs, beaten \n
+            1 (16 ounce) package cottage cheese \n
+            2 cups shredded Cheddar cheese \n
+            1/4 cup crushed croutons \n\n
+
+            <b>Directions</b> \n 
+            Preheat oven to 325 degrees F (165 degrees C). Lightly grease a 9 inch pie or quiche pan. \n\n
+
+            Place spinach in a small saucepan. Cook over medium heat, stirring occasionally until
+            soft. Drain off any remaining liquid. Stir in green onions, eggs, cottage cheese and
+            Cheddar cheese. Pour mixture into prepared pan. \n\n
+
+            Bake uncovered in preheated oven for 45 minutes. Remove from oven and sprinkle with
+            crushed croutons. Return to oven and bake for an additional 15 minutes, until eggs are
+            set. \n\n
+        </item>
+    </string-array>
+
+    <string-array name="recipe_images">
+        <item>chorizo</item>
+        <item>baked_french_toast</item>
+        <item>french_toast_casserole</item>
+        <item>banana_bread</item>
+        <item>quick_quiche</item>
+        <item>buttermilk_pancakes</item>
+        <item>vegan_pancakes</item>
+        <item>baked_ham_and_cheese</item>
+        <item>easy_sausage_gravy_and_biscuits</item>
+        <item>spinach_quiche</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
