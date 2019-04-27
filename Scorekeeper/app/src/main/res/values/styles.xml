@@ -9,8 +9,8 @@
     </style>
 
     <style name="ScoreButtons" parent="Widget.AppCompat.Button">
-        <item name="android:background">@drawable/button_background</item>
-        <item name="android:tint">@color/colorPrimary</item>
+        <item name="android:background">@drawable/button_state_list</item>
+        <item name="android:tint">@drawable/button_pressed_text_color</item>
     </style>
 
     <style name="PlusButtons" parent="ScoreButtons">
