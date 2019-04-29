@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\0f1e0f2dddeacf86ededf9eb0418e7ba\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\060c90bc142ea7bf1470eecd3124d43f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d833a1d29465bcfe338d2203e71c73d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4a60d814fd5fa8143bf59860f2042c9b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5946d3e33841050ddaec73fbab24ccc8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\f6c9b458a3bc2693e515a74fa53a70c2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\148cce64e439ada62b1ba2b4c550e502\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d7492ea39d94e28018666a1f1c01ca08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d0660d4526af0088aa0bbc5a9f286a0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\567c8307614e55282c091352d484c247\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\2a98bfef0a90fc58e8ec40e027e993de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c40b41d4b4ddcadce2d9862be7d334bc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\6f355a15dc72da2e3634fa0f7f87aaea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4586c2d19bf2c69338dec0aec260bf7d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f74e8edc85e14827e9d2b5166b7eb37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\03a08814b7534c87d0385a6141f4ae7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\46ec4baf2bf1e315a6bac578ddde5a4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\830b5c38fd4d02b3f0884c94222e6d1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\79545aece8fdb0056c1de19a3d4d7887\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bc5481b4b6ac0324f14c5020f58249e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\60aa923785b11645166212c683d00240\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\b0927dd5122d8bb448ef089fa8f25728\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c193b83dafe67af8dff497995445ffa1\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\93484545504c1b63183721e886b6c9e8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\28e323435697e8cad5da3a9179d05e68\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\120e49e606bcdc528f7863f7484930c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bb62a5118c48a3e44dbc093078e4f36\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\63349c981d576acb6c8c4d9454c9e211\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3cbe7c16ad61d51d6de99bc3c734befc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4ec3becf3b8907530691b84578ed4231\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f05d652ff3a7faaf4142c8f203423e6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\e7a2da1ab7c8d8bfac2855cb49cfe10b\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\0f1e0f2dddeacf86ededf9eb0418e7ba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\0f1e0f2dddeacf86ededf9eb0418e7ba\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\060c90bc142ea7bf1470eecd3124d43f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\060c90bc142ea7bf1470eecd3124d43f\AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\f6c9b458a3bc2693e515a74fa53a70c2\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\f6c9b458a3bc2693e515a74fa53a70c2\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\60aa923785b11645166212c683d00240\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\60aa923785b11645166212c683d00240\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c193b83dafe67af8dff497995445ffa1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c193b83dafe67af8dff497995445ffa1\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.android.materialme.DetailActivity
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:11:9-16:20
+	android:parentActivityName
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:12:13-55
+	android:name
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:11:19-49
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:14:13-15:49
+	android:value
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:15:17-46
+	android:name
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:14:24-70
+activity#com.example.android.materialme.MainActivity
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\0f1e0f2dddeacf86ededf9eb0418e7ba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\0f1e0f2dddeacf86ededf9eb0418e7ba\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\060c90bc142ea7bf1470eecd3124d43f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\060c90bc142ea7bf1470eecd3124d43f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d833a1d29465bcfe338d2203e71c73d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d833a1d29465bcfe338d2203e71c73d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4a60d814fd5fa8143bf59860f2042c9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4a60d814fd5fa8143bf59860f2042c9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5946d3e33841050ddaec73fbab24ccc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5946d3e33841050ddaec73fbab24ccc8\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\f6c9b458a3bc2693e515a74fa53a70c2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\f6c9b458a3bc2693e515a74fa53a70c2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\148cce64e439ada62b1ba2b4c550e502\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\148cce64e439ada62b1ba2b4c550e502\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d7492ea39d94e28018666a1f1c01ca08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d7492ea39d94e28018666a1f1c01ca08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d0660d4526af0088aa0bbc5a9f286a0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\d0660d4526af0088aa0bbc5a9f286a0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\567c8307614e55282c091352d484c247\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\567c8307614e55282c091352d484c247\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\2a98bfef0a90fc58e8ec40e027e993de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\2a98bfef0a90fc58e8ec40e027e993de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c40b41d4b4ddcadce2d9862be7d334bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c40b41d4b4ddcadce2d9862be7d334bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\6f355a15dc72da2e3634fa0f7f87aaea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\6f355a15dc72da2e3634fa0f7f87aaea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4586c2d19bf2c69338dec0aec260bf7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4586c2d19bf2c69338dec0aec260bf7d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f74e8edc85e14827e9d2b5166b7eb37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f74e8edc85e14827e9d2b5166b7eb37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\03a08814b7534c87d0385a6141f4ae7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\03a08814b7534c87d0385a6141f4ae7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\46ec4baf2bf1e315a6bac578ddde5a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\46ec4baf2bf1e315a6bac578ddde5a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\830b5c38fd4d02b3f0884c94222e6d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\830b5c38fd4d02b3f0884c94222e6d1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\79545aece8fdb0056c1de19a3d4d7887\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\79545aece8fdb0056c1de19a3d4d7887\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bc5481b4b6ac0324f14c5020f58249e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bc5481b4b6ac0324f14c5020f58249e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\40615b7cfd96c3049a653135985f8162\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\60aa923785b11645166212c683d00240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\60aa923785b11645166212c683d00240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\b0927dd5122d8bb448ef089fa8f25728\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\b0927dd5122d8bb448ef089fa8f25728\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c193b83dafe67af8dff497995445ffa1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\c193b83dafe67af8dff497995445ffa1\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\93484545504c1b63183721e886b6c9e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\93484545504c1b63183721e886b6c9e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\28e323435697e8cad5da3a9179d05e68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\28e323435697e8cad5da3a9179d05e68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\120e49e606bcdc528f7863f7484930c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\120e49e606bcdc528f7863f7484930c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bb62a5118c48a3e44dbc093078e4f36\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3bb62a5118c48a3e44dbc093078e4f36\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\63349c981d576acb6c8c4d9454c9e211\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\63349c981d576acb6c8c4d9454c9e211\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3cbe7c16ad61d51d6de99bc3c734befc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\3cbe7c16ad61d51d6de99bc3c734befc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4ec3becf3b8907530691b84578ed4231\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\4ec3becf3b8907530691b84578ed4231\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f05d652ff3a7faaf4142c8f203423e6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\5f05d652ff3a7faaf4142c8f203423e6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\e7a2da1ab7c8d8bfac2855cb49cfe10b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\oevbuoma\.gradle\caches\transforms-2\files-2.1\e7a2da1ab7c8d8bfac2855cb49cfe10b\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\oevbuoma\AndroidStudioProjects\Google_Android_Fundamentals\MaterialMe-Starter\app\src\main\AndroidManifest.xml
