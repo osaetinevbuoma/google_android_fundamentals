@@ -31,7 +31,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
                 // Get the position of the item that was clicked.
                 int mPosition = holder.getLayoutPosition(); // or getAdapterPosition()?
 
-                if (mPosition != RecyclerView.NO_POSITION){
+                if (mPosition != RecyclerView.NO_POSITION) {
                     // Use that to access the affected item in mWordList.
                     String element = mWordList.get(mPosition);
 
