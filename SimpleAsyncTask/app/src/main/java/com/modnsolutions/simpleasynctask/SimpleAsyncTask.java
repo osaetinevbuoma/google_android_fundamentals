@@ -1,6 +1,9 @@
 package com.modnsolutions.simpleasynctask;
 
 import android.os.AsyncTask;
+import android.util.Log;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.lang.ref.WeakReference;
@@ -8,9 +11,11 @@ import java.util.Random;
 
 public class SimpleAsyncTask extends AsyncTask<Void, Integer, String> {
     private WeakReference<TextView> mTextView;
+    private WeakReference<ProgressBar> mProgressBar;
 
-    SimpleAsyncTask(TextView tv) {
+    SimpleAsyncTask(TextView tv, ProgressBar pb) {
         mTextView = new WeakReference<>(tv);
+        mProgressBar = new WeakReference<>(pb);
     }
 
     @Override
@@ -23,15 +28,17 @@ public class SimpleAsyncTask extends AsyncTask<Void, Integer, String> {
         // while it is running
         int s = n * 2000;
 
-        long startTime = System.currentTimeMillis();
-
         // Sleep for the random amount of time
-        try {
+        for (int i = 0; i < s; i++) {
+            double progress = (double) i/s * 100;
+            publishProgress((int) Math.round(progress));
+        }
+        /*try {
             Thread.sleep(s);
-            publishProgress((int) (System.currentTimeMillis() - startTime));
+
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
         // Return a String result
         return "Awake at last after sleeping for " + s + " milliseconds!";
@@ -39,7 +46,8 @@ public class SimpleAsyncTask extends AsyncTask<Void, Integer, String> {
 
     @Override
     protected void onProgressUpdate(Integer... values) {
-        mTextView.get().setText("Sleep elapsed time: " + values[0] + " milliseconds.");
+        mProgressBar.get().setVisibility(View.VISIBLE);
+        mProgressBar.get().setProgress(values[0]);
     }
 
     @Override
