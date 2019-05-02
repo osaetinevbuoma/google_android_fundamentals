@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Web Page Source</string>
+    <string name="enter_url">Enter URL:</string>
+    <string name="get_page_source">Get Page Source</string>
+    <string name="valid_website_warning">Enter a valid website address like www.example.com</string>
+    <string name="check_connection">Check your internet connection and try again.</string>
+    <string name="loading">Loading...</string>
+    <string-array name="http_connection">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+</resources>
