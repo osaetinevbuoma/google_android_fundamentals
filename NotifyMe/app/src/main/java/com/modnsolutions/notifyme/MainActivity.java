@@ -121,7 +121,6 @@ public class MainActivity extends AppCompatActivity {
             notificationChannel.setLightColor(Color.RED);
             notificationChannel.enableVibration(true);
             notificationChannel.setDescription("Notification from Mascot");
-            notificationChannel.setImportance(NotificationManager.IMPORTANCE_HIGH);
 
             mNotifyManager.createNotificationChannel(notificationChannel);
         }
