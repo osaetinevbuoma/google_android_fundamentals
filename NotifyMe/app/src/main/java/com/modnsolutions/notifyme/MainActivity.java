@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendNotification() {
         // Update action button process, if needed
-        // @see <a href="https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..%2Fandroid-training&authuser=1#4">More info</a>
+        // @see<a href="https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=..%2F..%2Fandroid-training&authuser=1#4">More info</a>
         Intent updateIntent = new Intent(ACTION_UPDATE_NOTIFICATION);
         PendingIntent updatePendingIntent = PendingIntent.getBroadcast(this, NOTIFICATION_ID,
                 updateIntent, PendingIntent.FLAG_ONE_SHOT);
