@@ -2,8 +2,8 @@ package com.modnsolutions.recyclerviewrecipes;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements RecipeListFragment.OnRecipeClickedListener {
 
