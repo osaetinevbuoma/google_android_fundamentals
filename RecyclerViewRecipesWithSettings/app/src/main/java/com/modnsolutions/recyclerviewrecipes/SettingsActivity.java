@@ -13,6 +13,7 @@ public class SettingsActivity extends AppCompatActivity implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TITLE_TAG = "settingsActivityTitle";
+    private boolean isTwoPane = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,8 @@ public class SettingsActivity extends AppCompatActivity implements
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+
+        if (findViewById(R.id.settings_detail) != null) isTwoPane = true;
     }
 
     @Override
@@ -57,7 +60,7 @@ public class SettingsActivity extends AppCompatActivity implements
     }
 
     @Override
-    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
+    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, final Preference pref) {
         // Instantiate the new Fragment
         final Bundle args = pref.getExtras();
         final Fragment fragment = getSupportFragmentManager().getFragmentFactory().instantiate(
@@ -66,11 +69,21 @@ public class SettingsActivity extends AppCompatActivity implements
                 args);
         fragment.setArguments(args);
         fragment.setTargetFragment(caller, 0);
-        // Replace the existing Fragment with the new Fragment
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.settings, fragment)
-                .addToBackStack(null)
-                .commit();
+
+        // Replace the existing Fragment with the new Fragment depending on layout
+
+        if (isTwoPane) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.settings_detail, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        } else {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.settings, fragment)
+                    .addToBackStack(null)
+                    .commit();
+        }
+
         setTitle(pref.getTitle());
         return true;
     }
