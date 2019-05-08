@@ -21,7 +21,7 @@ public class Word {
         mWord = word;
     }
 
-    public String getmWord() {
+    public String getWord() {
         return mWord;
     }
 }
