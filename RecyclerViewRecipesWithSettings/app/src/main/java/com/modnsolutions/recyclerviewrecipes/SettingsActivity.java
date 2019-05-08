@@ -13,7 +13,7 @@ public class SettingsActivity extends AppCompatActivity implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TITLE_TAG = "settingsActivityTitle";
-    private boolean isTwoPane = false;
+    private boolean mIsTwoPane;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class SettingsActivity extends AppCompatActivity implements
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        if (findViewById(R.id.settings_detail) != null) isTwoPane = true;
+        mIsTwoPane = getResources().getBoolean(R.bool.isTablet);
     }
 
     @Override
@@ -72,7 +72,7 @@ public class SettingsActivity extends AppCompatActivity implements
 
         // Replace the existing Fragment with the new Fragment depending on layout
 
-        if (isTwoPane) {
+        if (mIsTwoPane) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.settings_detail, fragment)
                     .addToBackStack(null)
