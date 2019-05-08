@@ -1,10 +1,13 @@
 package com.modnsolutions.roomwordssample;
 
 import android.content.Context;
+import android.os.AsyncTask;
 
+import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+import androidx.sqlite.db.SupportSQLiteDatabase;
 
 @Database(entities = { Word.class }, version = 1, exportSchema = false)
 public abstract class WordRoomDatabase extends RoomDatabase {
@@ -29,11 +32,54 @@ public abstract class WordRoomDatabase extends RoomDatabase {
 
                             // Wipes and rebuilds instead of migrating if no Migration object.
                             .fallbackToDestructiveMigration()
+                            // Callback to repopulate database each time app is started.
+                            .addCallback(sRoomDatabaseCallback)
                             .build();
                 }
             }
         }
 
         return INSTANCE;
+    }
+
+    /**
+     * To delete all content and repopulate the database whenever the app is started, you create a
+     * RoomDatabase.Callback and override the onOpen() method. Because you cannot do Room database
+     * operations on the UI thread, onOpen() creates and executes an AsyncTask to add content to the
+     * database.
+     */
+    private static RoomDatabase.Callback sRoomDatabaseCallback = new RoomDatabase.Callback() {
+        @Override
+        public void onOpen(@NonNull SupportSQLiteDatabase db) {
+            super.onOpen(db);
+            new PopulateDBAsync(INSTANCE).execute();
+        }
+    };
+
+    /**
+     * Populate the database in the background.
+     */
+    private static class PopulateDBAsync extends AsyncTask<Void, Void, Void> {
+
+        private final WordDao mDao;
+        String[] words = {"dolphin", "crocodile", "cobra"};
+
+        public PopulateDBAsync(WordRoomDatabase db) {
+            mDao = db.wordDao();
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            // Start the app with a clean database every time.
+            // Not needed if you only populate the database when it is first created.
+            mDao.deleteAll();
+
+            for (int i = 0; i <= words.length - 1; i++) {
+                Word word = new Word(words[i]);
+                mDao.insert(word);
+            }
+
+            return null;
+        }
     }
 }
