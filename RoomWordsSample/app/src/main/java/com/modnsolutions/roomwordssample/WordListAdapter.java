@@ -1,6 +1,7 @@
 package com.modnsolutions.roomwordssample;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,9 +15,11 @@ import java.util.List;
 public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder> {
     private final LayoutInflater mInflater;
     private List<Word> mWords; // Cached copy of words
+    private Context mContext;
 
     WordListAdapter(Context context) {
         mInflater = LayoutInflater.from(context);
+        mContext = context;
     }
 
     @NonNull
@@ -54,12 +57,32 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         notifyDataSetChanged();
     }
 
-    public class WordViewHolder extends RecyclerView.ViewHolder {
+    /**
+     * Get word at a given position.
+     *
+     * @param position The position of the word.
+     * @return Word. The word at the given position.
+     */
+    public Word getWordAtPosition(int position) {
+        return mWords.get(position);
+    }
+
+    public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private final TextView wordItemView;
 
         public WordViewHolder(@NonNull View itemView) {
             super(itemView);
             wordItemView = itemView.findViewById(R.id.textView);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            int position = getAdapterPosition();
+            Word myWord = getWordAtPosition(position);
+            Intent intent = new Intent(mContext, NewWordActivity.class);
+            intent.putExtra("edit_word", myWord);
+            mContext.startActivity(intent);
         }
     }
 }
