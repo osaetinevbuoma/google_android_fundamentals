@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity implements RecipeListFragmen
         if (savedInstanceState == null) {
             // Inflate RecipeListFragment in MainActivity
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            transaction.add(R.id.recipe_fragment, new RecipeListFragment())
-                    .addToBackStack(null)
+            transaction.replace(R.id.recipe_fragment, new RecipeListFragment())
+//                    .addToBackStack(null)
                     .commit();
         }
     }

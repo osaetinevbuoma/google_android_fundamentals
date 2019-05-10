@@ -25,8 +25,8 @@ public class RecipeDetailsActivity extends AppCompatActivity {
             fragment.setArguments(bundle);
 
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.recipe_details_fragment, fragment)
-                    .addToBackStack(null)
+                    .replace(R.id.recipe_details_fragment, fragment)
+//                    .addToBackStack(null)
                     .commit();
         }
     }
